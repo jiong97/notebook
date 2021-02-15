@@ -12,6 +12,13 @@ language: zh-cn
 timezone: 'Asia/Shanghai'
 excerpt_description: true
 
+toc:
+  title: 目录
+  class: sidebar-module-list toc
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://example.com

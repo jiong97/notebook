@@ -1,0 +1,6 @@
+<% if (content){ %>
+  <div class="sidebar-module sidebar-toc">
+    <h4><%- config.toc.title %></h4>
+    <%- toc(content, config.toc) %>
+  </div>
+<% } %>

@@ -6,14 +6,13 @@ menu:
 rss: /atom.xml
 
 # Content
-auto_excerpt:
-  enable: false
-# 首页显示更多的按钮
-excerpt_link: 'Read More'
+excerpt_link: Read More
 fancybox: false
+subtitle: 健忘
 
 # Sidebar
 widgets:
+- toc
 # - about         # See also: `about_content`
 - category
 - tag
@@ -31,7 +30,7 @@ show_count: true
 
 # Miscellaneous
 google_analytics:
-favicon:
+favicon: /favicon.svg
 twitter_id:
 google_plus:
 fb_admins:
